@@ -1,0 +1,8 @@
+com\Test\Bean\MemberBean.class
+com\Test\dbConnectivity\JdbcTest.class
+com\Test\Bean\User.class
+com\Test\Controller\ClaimsController.class
+com\Test\dbConnectivity\SampleTest.class
+com\Test\Controller\MemberController.class
+com\Test\Bean\ClaimsBean.class
+com\Test\dbConnectivity\TestJSON.class
