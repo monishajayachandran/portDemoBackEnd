@@ -36,8 +36,6 @@ public class ClaimsController {
 		 claim = claims.getClaimDetails(id);
 		return claim;
 	}
-	
-	
-	
+
 	
 }

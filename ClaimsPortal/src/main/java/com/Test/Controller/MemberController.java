@@ -43,7 +43,6 @@ public class MemberController {
 	}
 
 	
-
 	@RequestMapping(value = "/validateMember", method = RequestMethod.POST, produces = "application/json")
 	public int mycustomAction(@RequestBody String body) {
 		ObjectMapper mapper = new ObjectMapper();
