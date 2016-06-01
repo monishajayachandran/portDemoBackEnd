@@ -31,8 +31,10 @@ public class FamilyMemberDaoImpl {
   				member.setUserName(rsltSet.getString("MemberName"));
   				member.setMemberId(rsltSet.getString("MemberId"));
   				member.setAge(rsltSet.getString("MemberAge"));
-  				member.setImage1URL(rsltSet.getString("CardImageFrontURl"));
-  				member.setImage2URL(rsltSet.getString("CardImageBackURl"));
+  				member.setCard1frontURL(rsltSet.getString("CardImage1FrontURl"));
+  				member.setCard1backURL(rsltSet.getString("CardImage1BackURl"));
+  				member.setCard2frontURL(rsltSet.getString("CardImage2FrontURl"));
+  				member.setCard2backURL(rsltSet.getString("CardImage2BackURl"));
 
   				familyMembers.add(member);
 			}

@@ -44,6 +44,7 @@ public class ClaimsDaoImpl{
 	        	 
 	         listOfClaims.add(claims);
 	         }
+	       
 	        
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

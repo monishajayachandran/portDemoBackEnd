@@ -5,8 +5,10 @@ public class FamilyMemberBean {
 	private String userName;
 	private String memberId;
 	private String age;
-	private String image1URL;
-	private String image2URL;
+	private String card1frontURL;
+	private String card1backURL;
+	private String card2frontURL;
+	private String card2backURL;
 	public long getId() {
 		return id;
 	}
@@ -32,28 +34,46 @@ public class FamilyMemberBean {
 		this.age = age;
 	}
 	
-	public String getImage1URL() {
-		return image1URL;
-	}
-	public void setImage1URL(String image1url) {
-		image1URL = image1url;
-	}
-	public String getImage2URL() {
-		return image2URL;
-	}
-	public void setImage2URL(String image2url) {
-		image2URL = image2url;
-	}
 	
-	
-	@Override
-	public String toString() {
-		return "FamilyMemberBean [id=" + id + ", userName=" + userName + ", memberId=" + memberId + ", age=" + age
-				+ ", image1URL=" + image1URL + ", image2URL=" + image2URL + "]";
+	public String getCard1frontURL() {
+		return card1frontURL;
+	}
+	public void setCard1frontURL(String card1frontURL) {
+		this.card1frontURL = card1frontURL;
+	}
+	public String getCard1backURL() {
+		return card1backURL;
+	}
+	public void setCard1backURL(String card1backURL) {
+		this.card1backURL = card1backURL;
+	}
+	public String getCard2frontURL() {
+		return card2frontURL;
+	}
+	public void setCard2frontURL(String card2frontURL) {
+		this.card2frontURL = card2frontURL;
+	}
+	public String getCard2backURL() {
+		return card2backURL;
+	}
+	public void setCard2backURL(String card2backURL) {
+		this.card2backURL = card2backURL;
 	}
 	public FamilyMemberBean() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	public FamilyMemberBean(long id, String userName, String memberId, String age, String card1frontURL,
+			String card1backURL, String card2frontURL, String card2backURL) {
+		super();
+		this.id = id;
+		this.userName = userName;
+		this.memberId = memberId;
+		this.age = age;
+		this.card1frontURL = card1frontURL;
+		this.card1backURL = card1backURL;
+		this.card2frontURL = card2frontURL;
+		this.card2backURL = card2backURL;
 	}
 	
 	
